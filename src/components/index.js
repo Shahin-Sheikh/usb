@@ -6,3 +6,4 @@ export { default as BasicTextField } from './BasicTextField.component';
 export { default as CustomInputLabel } from './CustomInputLabel.component';
 export { default as LabelWithInput } from './LabelWithInput.component';
 export { default as Main } from './Main.component';
+export { default as MuiDrawer } from './MuiDrawer.component';
