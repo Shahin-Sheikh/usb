@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["react-hooks"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-uses-react": "warn",
+    "no-unused-vars": "warn",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "arrow-body-style": ["warn", "as-needed"]
+  }
+}

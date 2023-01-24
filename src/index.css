@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a,
+a > * {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#login {
+  background-image: url('/public/pattern.svg'),
+    linear-gradient(
+      215deg,
+      hsl(0deg 0% 100%) 18%,
+      hsl(196deg 100% 97%) 61%,
+      hsl(196deg 100% 93%) 74%,
+      hsl(196deg 100% 90%) 82%,
+      hsl(196deg 100% 86%) 87%,
+      hsl(195deg 100% 82%) 90%,
+      hsl(195deg 100% 77%) 92%,
+      hsl(194deg 100% 72%) 94%,
+      hsl(193deg 100% 66%) 96%,
+      hsl(190deg 100% 50%) 100%
+    );
+  background-size: cover;
+}
